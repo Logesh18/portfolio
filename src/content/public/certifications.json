@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ibm-docker",
+    "title": "IBM Certification on Docker Essentials",
+    "issuer": "IBM (via Credly)",
+    "credentialLabel": "View Verified Credly Badge",
+    "url": "https://www.credly.com/badges/520937b9-380b-4160-ba73-590fa6db1156/linked_in",
+    "verified": true
+  },
+  {
+    "id": "google-ux",
+    "title": "Google UX Design Foundations Certificate",
+    "issuer": "Google (via Coursera)",
+    "credentialLabel": "View Verified Coursera Certificate",
+    "url": "https://coursera.org/share/c1f11a3c791e37d435f0390c5acbcb45",
+    "verified": true
+  }
+]

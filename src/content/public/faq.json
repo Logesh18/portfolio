@@ -1,0 +1,97 @@
+[
+  {
+    "id": "who-is-logesh",
+    "question": "Who is Logesh T?",
+    "answer": "Logesh T is a Software Engineer L2 at Techcedence Infosystems Pvt. Ltd. (joined 22 January 2024 and currently employed) with 4+ years of hands-on full-stack software engineering experience across enterprise asset management, healthcare frontends, mobile warehouse auditing, low-code platforms, IoT, and EdTech. Previously, he worked as a Software Engineer at IResponsive Solutions (Oct–Nov 2023) and iamneo (Jul 2021–Oct 2023), and has delivered freelance WordPress websites.",
+    "category": "Profile",
+    "relatedLinks": [
+      { "label": "Experience Timeline", "href": "/experience" },
+      { "label": "All Projects", "href": "/projects" }
+    ],
+    "keywords": ["who", "logesh", "about", "background", "current role", "summary", "experience", "years"]
+  },
+  {
+    "id": "what-is-tracassets",
+    "question": "What is TracAssets and what did Logesh build on it?",
+    "answer": "TracAssets is an enterprise low-code and asset management platform at Techcedence Infosystems built with Angular, Tailwind CSS, Node.js, PostgreSQL, Prisma ORM, WebSockets, and MQTT. Logesh built physical/digital asset registration, live BLE indoor floor-map tracking, RFID support, GPS fleet tracking with Google Maps geofencing alerts, software license allocation and expiry reminders, preventive (AMC) and reactive maintenance workflows, a six-step asset transfer process (request, manager approval, gate pass, transit lock, receiving inspection with photos, digital sign-off), barcode audits, and automated SLA, renewal, and depreciation background jobs.",
+    "category": "Projects",
+    "relatedLinks": [
+      { "label": "TracAssets Case Study", "href": "/projects/tracassets" }
+    ],
+    "keywords": ["tracassets", "asset", "ble", "indoor", "gps", "geofencing", "mqtt", "websocket", "transfer", "amc", "licence", "license", "iot"]
+  },
+  {
+    "id": "what-did-he-build-on-ursamin",
+    "question": "What did Logesh build on Ursamin?",
+    "answer": "On Ursamin (at Techcedence Infosystems), Logesh worked specifically on the healthcare frontend using Next.js, React, TypeScript, Redux Toolkit, RTK Query, Material UI, and Tailwind CSS. He built responsive patient lists and profiles, care-team views, medical records, treatment plans, clinical document workflows, high-priority patient and ER practice dashboards, clinic/resource/subscription views, and super-admin screens, integrating REST APIs via RTK Query with reusable loading, error, and success states.",
+    "category": "Projects",
+    "relatedLinks": [
+      { "label": "Ursamin Case Study", "href": "/projects/ursamin" }
+    ],
+    "keywords": ["ursamin", "healthcare", "patient", "medical", "care team", "er", "dashboard", "nextjs", "rtk query", "frontend"]
+  },
+  {
+    "id": "react-native-postgresql",
+    "question": "Does Logesh know React Native or PostgreSQL?",
+    "answer": "Yes, Logesh has production experience with both React Native and PostgreSQL. He used React Native with offline SQLite, Redux Toolkit, RTK Query, barcode scanning, and the Zebra SDK (RFID) to build the Stock Take and B&D Plumbers mobile inventory audit apps at Techcedence. He used PostgreSQL with Prisma ORM and Node.js on TracAssets, LCP (Low-Code Platform), and Pricing Calculator.",
+    "category": "Skills",
+    "relatedLinks": [
+      { "label": "Stock Take (React Native)", "href": "/projects/stock-take" },
+      { "label": "TracAssets (PostgreSQL)", "href": "/projects/tracassets" }
+    ],
+    "keywords": ["react native", "postgresql", "postgres", "prisma", "sqlite", "mobile", "database", "zebra", "rfid", "stock take"]
+  },
+  {
+    "id": "iot-and-healthcare-work",
+    "question": "What IoT and healthcare work has Logesh done?",
+    "answer": "In IoT and enterprise asset tracking, Logesh engineered live BLE beacon indoor floor-map positioning, RFID scanning (including Zebra SDK on React Native), MQTT/WebSocket telemetry, and GPS fleet tracking with Google Maps geofencing alerts across TracAssets and Stock Take. In healthcare, he developed the Next.js/React/TypeScript frontend for Ursamin, delivering patient profiles, care teams, medical records, treatment plans, and high-priority/ER dashboards.",
+    "category": "Domain Expertise",
+    "relatedLinks": [
+      { "label": "TracAssets (IoT)", "href": "/projects/tracassets" },
+      { "label": "Stock Take (RFID)", "href": "/projects/stock-take" },
+      { "label": "Ursamin (Healthcare)", "href": "/projects/ursamin" }
+    ],
+    "keywords": ["iot", "healthcare", "ble", "rfid", "mqtt", "gps", "geofence", "medical", "patient"]
+  },
+  {
+    "id": "what-is-iskreen",
+    "question": "What is ISkreen?",
+    "answer": "ISkreen is a digital identity badge and bag-tag web application built at Techcedence Infosystems using React, Redux Toolkit, RTK Query, Node.js, and MySQL. Logesh developed configurable digital ID card and bag-tag workflows, employee identification, permission-based office zone access controls, and location-tracking features.",
+    "category": "Projects",
+    "relatedLinks": [
+      { "label": "ISkreen Case Study", "href": "/projects/iskreen" }
+    ],
+    "keywords": ["iskreen", "badge", "bagtag", "bag-tag", "identity", "access", "id card"]
+  },
+  {
+    "id": "freelance-projects",
+    "question": "What freelance projects did Logesh deliver?",
+    "answer": "Logesh delivered two WordPress-based freelance projects: (1) London Tamil Sangam — migrated and redesigned an NGO school website in Canada using WordPress and phpMyAdmin, providing ongoing security fixes, backups, and SSL maintenance; and (2) Kongu Engineering College Alumni Website — developed a WordPress-based alumni portal within approximately two months.",
+    "category": "Freelance",
+    "relatedLinks": [
+      { "label": "London Tamil Sangam", "href": "/projects/london-tamil-sangam" },
+      { "label": "Kongu Alumni Website", "href": "/projects/kongu-alumni-website" }
+    ],
+    "keywords": ["freelance", "wordpress", "london tamil sangam", "kongu", "alumni", "ngo"]
+  },
+  {
+    "id": "certifications-and-publications",
+    "question": "What certifications and publications are public?",
+    "answer": "Logesh holds two verified certifications: (1) IBM Certification on Docker Essentials (Credly) and (2) Google UX Design Foundations Certificate (Coursera). He also co-authored two IEEE Xplore conference papers with his Kongu Engineering College CSE research team: (1) 'Prediction of Best Optimizer for Facial Expression Detection using Convolutional Neural Network' (2022 IEEE ICCCI, Document #9740832, co-authored with K. Kousalya, R. S. Mohana, E. K. Jithendiran, and R. C. Kanishk) and (2) 'Group Emotion Detection using Convolutional Neural Network' (2022 IEEE OTCON, Document #10113900, co-authored with K. Kousalya, R. S. Mohana, B. Krishna Kumar, E. K. Jithendiran, R. C. Kanishk, E. Ranjith Kumar, and B. A. Sahithya).",
+    "category": "Credentials",
+    "relatedLinks": [
+      { "label": "Credentials & Publications", "href": "/about#credentials" }
+    ],
+    "keywords": ["certification", "certifications", "publication", "publications", "ieee", "docker", "ibm", "google ux", "coursera", "credly", "education", "cgpa", "facial expression", "group emotion", "cnn", "teammates", "co-authors"]
+  },
+  {
+    "id": "ai-coding-tools",
+    "question": "What AI coding tools does Logesh use?",
+    "answer": "Logesh uses Google Antigravity, OpenAI Codex, and ChatGPT for AI-assisted software development—including vibe coding, rapid UI/API prototyping, code generation, and debugging. These tools are part of his software engineering workflow and are not claimed as separate commercial AI/ML model-training employment.",
+    "category": "AI Workflow",
+    "relatedLinks": [
+      { "label": "Technical Skills & AI Workflow", "href": "/#ai-workflow" }
+    ],
+    "keywords": ["ai", "tools", "antigravity", "codex", "chatgpt", "vibe coding", "prototyping", "llm"]
+  }
+]

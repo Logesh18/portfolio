@@ -1,0 +1,104 @@
+[
+  {
+    "id": "frontend",
+    "category": "Frontend Engineering",
+    "description": "Component-driven web interfaces, state management, SSR/SSG apps, and enterprise dashboards.",
+    "skills": [
+      "React.js",
+      "Next.js",
+      "Angular",
+      "JavaScript",
+      "TypeScript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Material UI",
+      "Redux Toolkit",
+      "RTK Query"
+    ]
+  },
+  {
+    "id": "backend",
+    "category": "Backend & APIs",
+    "description": "Service architecture, RESTful and real-time event-driven APIs, background jobs, and middleware.",
+    "skills": [
+      "Node.js",
+      "Express.js",
+      "NestJS",
+      "Hapi.js",
+      "REST APIs",
+      "Web APIs",
+      "WebSockets"
+    ]
+  },
+  {
+    "id": "data",
+    "category": "Data & Persistence",
+    "description": "Relational schema design, type-safe ORMs, document stores, and embedded offline databases.",
+    "skills": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "SQLite",
+      "Prisma ORM"
+    ]
+  },
+  {
+    "id": "mobile",
+    "category": "Mobile & Offline-First",
+    "description": "Cross-platform mobile apps for field auditing, hardware scanner integration, and local persistence.",
+    "skills": [
+      "React Native",
+      "Offline SQLite",
+      "Barcode Scanning",
+      "RFID Integration",
+      "Zebra SDK"
+    ]
+  },
+  {
+    "id": "cloud-devops",
+    "category": "Cloud, Serverless & DevOps",
+    "description": "Containerized deployments, serverless cloud functions, version control, and platform operations.",
+    "skills": [
+      "AWS",
+      "GCP",
+      "AWS Lambda",
+      "Google Cloud Functions",
+      "Google Cloud Run",
+      "Docker",
+      "Git",
+      "Serverless",
+      "WordPress",
+      "Power BI"
+    ]
+  },
+  {
+    "id": "iot-enterprise",
+    "category": "IoT & Real-Time Enterprise",
+    "description": "Indoor positioning, fleet telematics, geofencing alerts, and physical asset lifecycle automation.",
+    "skills": [
+      "MQTT",
+      "BLE (Bluetooth Low Energy)",
+      "RFID",
+      "GPS Telematics",
+      "Geofencing",
+      "Real-Time Asset Management"
+    ]
+  },
+  {
+    "id": "ai-assisted",
+    "category": "AI-Assisted Development",
+    "description": "Modern AI-augmented software engineering workflows for rapid prototyping, code generation, and debugging.",
+    "skills": [
+      "Google Antigravity",
+      "OpenAI Codex",
+      "ChatGPT",
+      "Vibe Coding",
+      "AI-Assisted Prototyping",
+      "Code Generation",
+      "AI-Assisted Debugging"
+    ],
+    "isAiAssisted": true,
+    "positioningDisclaimer": "Represents practical AI-assisted software engineering tools used to accelerate full-stack development, prototyping, and debugging—not claimed as separate commercial AI/ML research employment."
+  }
+]

@@ -1,0 +1,622 @@
+[
+  {
+    "slug": "tracassets",
+    "title": "TracAssets",
+    "subtitle": "Enterprise Low-Code & Real-Time Asset Management Platform",
+    "employer": "Techcedence Infosystems Pvt. Ltd.",
+    "originType": "employment",
+    "period": "Jan 2024 – Present",
+    "domain": "Enterprise & Asset Management",
+    "featured": true,
+    "role": "Full Stack Software Engineer (L2)",
+    "scopeNote": "Full-stack frontend and backend feature ownership across physical/digital asset registration, BLE/GPS telemetry, licence tracking, maintenance workflows, six-step transfers, and background automation jobs.",
+    "stack": [
+      "Angular",
+      "Tailwind CSS",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma ORM",
+      "WebSockets",
+      "MQTT"
+    ],
+    "summary": "Enterprise low-code and asset management platform governing end-to-end physical and digital asset operations, including live BLE indoor floor-map positioning, RFID support, GPS fleet tracking with Google Maps geofencing alerts, software license management, AMC/reactive maintenance, six-step custody transfers, barcode audits, and SLA/depreciation background jobs.",
+    "businessProblem": "Enterprises managing thousands of physical hardware devices, fleet vehicles, and software subscriptions struggle with fragmented tracking spreadsheets, unmonitored licence expirations, unverified inter-facility asset transfers, and delayed maintenance cycles.",
+    "contributions": [
+      "Built screens and backend logic to register physical hardware (laptops, equipment) and render live indoor floor-map locations using Bluetooth Low Energy (BLE) beacons and RFID support.",
+      "Integrated GPS and vehicle telematics with Google Maps to track live transit routes and configure virtual geofence boundaries that trigger instant alerts on unauthorized entry, exit, or route deviation.",
+      "Implemented software license management features to track software purchases, allocate license seats to employees or machines, and trigger automated renewal reminders before subscriptions expire.",
+      "Developed preventive (AMC) and reactive breakdown maintenance scheduling modules, including technician task assignments and visit inspection checklists.",
+      "Engineered a complete six-step asset transfer process: transfer request, manager approval, gate pass dispatch, in-transit asset locking, receiving inspection with damage photo capture, and digital sign-off with automatic custody updates.",
+      "Implemented physical barcode audit workflows and automated background jobs for SLA monitoring, license renewal notifications, and asset depreciation calculations."
+    ],
+    "keyFeatures": [
+      "Live BLE indoor floor-map positioning & RFID tag tracking",
+      "GPS fleet route tracking & Google Maps geofencing deviation alerts",
+      "Software license seat allocation & automated expiry notifications",
+      "AMC preventive servicing & reactive repair technician workflows",
+      "Six-stage gated asset transfer lifecycle with digital sign-off",
+      "Automated SLA, renewal, and depreciation background jobs"
+    ],
+    "challenges": [
+      "Coordinating high-frequency MQTT/WebSocket telemetry updates from BLE beacons and GPS trackers without overwhelming browser rendering on indoor floor maps.",
+      "Enforcing strict state-machine integrity across the six-step transfer lifecycle so in-transit assets cannot be modified or reassigned prior to receiving inspection and digital sign-off.",
+      "Designing deterministic background job schedules for depreciation, SLA breach detection, and multi-tier license renewal notifications."
+    ],
+    "verifiedImpact": [
+      "Unified physical hardware, fleet telematics, and digital software license lifecycles into a single enterprise platform at Techcedence.",
+      "Established auditable six-stage custody handoffs with inspection evidence and automated custody updates."
+    ],
+    "architectureNotes": [
+      {
+        "label": "Real-Time Telemetry Pipeline",
+        "description": "BLE beacon and GPS telemetry events are ingested via MQTT and pushed to connected Angular clients over WebSockets for live indoor map and Google Maps updates.",
+        "classification": "verified"
+      },
+      {
+        "label": "Relational Persistence & ORM",
+        "description": "PostgreSQL managed through Prisma ORM enforces relational constraints across asset registries, license entitlements, maintenance tickets, and transfer custody logs.",
+        "classification": "verified"
+      },
+      {
+        "label": "Proposed Telemetry Throttling & Job Queue Topology",
+        "description": "Illustrative architecture note: Debounced client-side viewport state updates combined with scheduled worker queues isolate heavy depreciation and SLA calculations from interactive API traffic.",
+        "classification": "proposed"
+      }
+    ]
+  },
+  {
+    "slug": "ursamin",
+    "title": "Ursamin",
+    "subtitle": "Healthcare Practice & Patient Care Management Frontend",
+    "employer": "Techcedence Infosystems Pvt. Ltd.",
+    "originType": "employment",
+    "period": "Jan 2024 – Present",
+    "domain": "Healthcare",
+    "featured": true,
+    "role": "Frontend Software Engineer (L2)",
+    "scopeNote": "Explicit Frontend Scope: Owned Next.js, React, TypeScript, Redux Toolkit, RTK Query, Material UI, and Tailwind CSS frontend interfaces and REST API integration. Does not claim backend service ownership.",
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Redux Toolkit",
+      "RTK Query",
+      "Material UI",
+      "Tailwind CSS"
+    ],
+    "summary": "Healthcare practice and patient care management frontend enabling clinic and hospital care teams to manage patient lists, patient profiles, care teams, medical records, treatment plans, document workflows, high-priority/ER dashboards, and super-admin operations.",
+    "businessProblem": "Clinical and hospital staff require fast, accessible, and reliable interfaces to coordinate multidisciplinary care teams, review medical records and treatment plans, monitor high-priority ER visits, and administer multi-clinic resources without UI lag or ambiguous API states.",
+    "contributions": [
+      "Developed responsive frontend modules using Next.js, React, and TypeScript covering patient profiles, patient lists, care-team directories, medical records, treatment plans, and clinical document workflows.",
+      "Built practice dashboards for high-priority patients and emergency room (ER) visits, alongside administrative screens for clinics, teams, resources, subscriptions, and super-admin operations.",
+      "Integrated frontend views with backend REST APIs using Redux Toolkit and RTK Query, standardizing cache invalidation and explicit loading, error, and success states.",
+      "Created a library of reusable UI components and validated clinical forms using Material UI and Tailwind CSS for consistent design across workflows."
+    ],
+    "keyFeatures": [
+      "Comprehensive patient profiles, medical records & treatment plan views",
+      "Care-team coordination & clinical document workflow interfaces",
+      "High-priority patient & Emergency Room (ER) practice dashboards",
+      "Multi-clinic administration, resource management & subscription screens",
+      "Centralized RTK Query data fetching with resilient state handling"
+    ],
+    "challenges": [
+      "Managing deeply nested clinical data structures (patient histories, care teams, treatment plans) with predictable cache invalidation across views.",
+      "Ensuring complex healthcare forms and high-priority ER dashboards remain responsive and clear under loading and partial-error conditions."
+    ],
+    "verifiedImpact": [
+      "Delivered a cohesive, reusable Next.js and TypeScript healthcare frontend supporting clinical care teams, practice administrators, and super-admin users.",
+      "Standardized REST API state management across patient and clinic workflows using Redux Toolkit and RTK Query."
+    ],
+    "architectureNotes": [
+      {
+        "label": "Frontend State & API Layer",
+        "description": "Built on Next.js and TypeScript using Redux Toolkit and RTK Query to manage REST API integration, normalized caching, and loading/error/success lifecycles.",
+        "classification": "verified"
+      },
+      {
+        "label": "Design System Hybrid",
+        "description": "Combines Material UI accessible data primitives with Tailwind CSS utility styling for rapid clinical workflow composition.",
+        "classification": "verified"
+      }
+    ]
+  },
+  {
+    "slug": "stock-take",
+    "title": "Stock Take",
+    "subtitle": "Offline-First Mobile Warehouse & RFID Auditing Application",
+    "employer": "Techcedence Infosystems Pvt. Ltd.",
+    "originType": "employment",
+    "period": "Jan 2024 – Present",
+    "domain": "Mobile & Warehouse IoT",
+    "featured": true,
+    "role": "Mobile Software Engineer (L2)",
+    "scopeNote": "Mobile application development using React Native, local SQLite persistence, Redux Toolkit, RTK Query, barcode scanning, and Zebra SDK RFID integration.",
+    "stack": [
+      "React Native",
+      "SQLite",
+      "Redux Toolkit",
+      "RTK Query",
+      "Zebra SDK"
+    ],
+    "summary": "Warehouse and retail inventory auditing mobile experience built with React Native, supporting barcode scanning, Zebra SDK RFID stock audits, product search, physical count entry, system-vs-actual stock comparison, offline SQLite CRUD persistence, and central database synchronization.",
+    "businessProblem": "Warehouse and retail floor auditors frequently operate in dead zones with poor Wi-Fi connectivity while scanning thousands of SKUs via barcode and handheld RFID readers, requiring zero data loss and rapid variance reconciliation.",
+    "contributions": [
+      "Engineered the React Native mobile auditing interface supporting rapid barcode scanning, product lookup, physical stock counting, and real-time system-vs-actual variance comparison.",
+      "Integrated hardware RFID scanning capabilities using the Zebra SDK to accelerate bulk inventory stock audits.",
+      "Designed local offline persistence using SQLite so auditors can perform full CRUD operations without network connectivity and synchronize batches with the central inventory database once online.",
+      "Authored API documentation, task estimates, and unit tests across the mobile development lifecycle."
+    ],
+    "keyFeatures": [
+      "Hardware RFID scanning integration via Zebra SDK",
+      "Camera & scanner barcode lookup with instant SKU search",
+      "Physical count vs. system stock discrepancy comparison",
+      "Offline-first SQLite storage with full local CRUD support",
+      "Central inventory database synchronization via RTK Query"
+    ],
+    "challenges": [
+      "Bridging native Zebra SDK RFID hardware events into the React Native JavaScript thread without dropping high-speed tag reads.",
+      "Maintaining conflict-free synchronization between local SQLite audit tables and the central warehouse database after offline sessions."
+    ],
+    "verifiedImpact": [
+      "Enabled reliable offline and RFID-accelerated physical stock audits across warehouse and retail environments.",
+      "Eliminated manual paper tally sheets through local SQLite persistence and automated central synchronization."
+    ],
+    "architectureNotes": [
+      {
+        "label": "Offline-First SQLite Engine",
+        "description": "All product catalogs and physical audit counts are persisted locally in on-device SQLite tables, enabling uninterrupted floor operations offline.",
+        "classification": "verified"
+      },
+      {
+        "label": "Hardware Scanner Integration",
+        "description": "Uses Zebra SDK for handheld RFID reader integration alongside barcode scanning and Redux Toolkit / RTK Query for central sync.",
+        "classification": "verified"
+      }
+    ]
+  },
+  {
+    "slug": "iskreen",
+    "title": "ISkreen",
+    "subtitle": "Digital Identity Badge, Bagtag & Access Workflow Platform",
+    "employer": "Techcedence Infosystems Pvt. Ltd.",
+    "originType": "employment",
+    "period": "Jan 2024 – Present",
+    "domain": "Digital Identity & Security",
+    "featured": true,
+    "role": "Full Stack Software Engineer (L2)",
+    "scopeNote": "End-to-end frontend and backend development using React, Redux Toolkit, RTK Query, Node.js, and MySQL.",
+    "stack": [
+      "React",
+      "Redux Toolkit",
+      "RTK Query",
+      "Node.js",
+      "MySQL"
+    ],
+    "summary": "Digital identity badge and bag-tag web application providing configurable corporate ID cards, employee identification, permission-based office zone access workflows, and location-tracking capabilities.",
+    "businessProblem": "Organizations and end users need a unified platform to design customizable digital ID badges and bag tags, manage employee identification records, enforce zone-based access permissions, and monitor location-aware resource security.",
+    "contributions": [
+      "Developed end-to-end frontend and backend workflows for designing customizable digital ID badges and bag tags tailored to company and end-user preferences.",
+      "Implemented employee identification management and permission-based access control logic for designated office areas using React and Node.js.",
+      "Built location-tracking features and MySQL persistence schemas to support organizational security and resource visibility.",
+      "Documented REST APIs, provided project/task estimations, and executed unit tests across the application lifecycle."
+    ],
+    "keyFeatures": [
+      "Configurable digital ID card & bag-tag designer workflows",
+      "Employee identity management & verification portal",
+      "Role and permission-based office zone access controls",
+      "Location-aware tracking capabilities for security & resource visibility"
+    ],
+    "challenges": [
+      "Supporting flexible per-organization card templates and bag-tag layouts while keeping identity verification payloads consistent.",
+      "Structuring relational MySQL permissions to evaluate zone access rules cleanly."
+    ],
+    "verifiedImpact": [
+      "Delivered a unified React and Node.js platform for digital badge issuance, bag-tag management, and permission-based workplace access."
+    ],
+    "architectureNotes": [
+      {
+        "label": "Full-Stack React & Node.js Architecture",
+        "description": "React frontend with Redux Toolkit and RTK Query communicating with a Node.js REST backend backed by MySQL.",
+        "classification": "verified"
+      }
+    ]
+  },
+  {
+    "slug": "neo-platform",
+    "title": "Neo Platform",
+    "subtitle": "Enterprise EdTech Analytics, Security & Cloud Learning Platform",
+    "employer": "iamneo",
+    "originType": "employment",
+    "period": "Jul 2021 – Oct 2023",
+    "domain": "EdTech & Cloud",
+    "featured": true,
+    "role": "Software Engineer",
+    "scopeNote": "Full-stack feature development, performance optimization, LTI cloud integrations, and serverless deployments across Angular, React, Node.js, Express, Hapi, MySQL, GCP, and AWS.",
+    "stack": [
+      "Angular",
+      "React",
+      "Node.js",
+      "Express",
+      "Hapi",
+      "MySQL",
+      "Power BI",
+      "GCP",
+      "AWS"
+    ],
+    "summary": "Core enterprise EdTech platform serving universities and corporate clients, featuring Power BI analytics integration, two-factor authentication (2FA), client chat mentions, centralized content/question/project bank publishing, mentor–mentee mapping, LTI cloud course integrations, and high-volume record export optimization.",
+    "businessProblem": "Enterprise and university customers required richer analytical reporting, stronger account security, collaborative chat mentions, centralized curriculum publishing without duplicate content banks, mentor tracking, and faster large-scale student record exports.",
+    "contributions": [
+      "Integrated Power BI analytics dashboards replacing legacy platform reports and implemented two-factor authentication (2FA); earlier resume attributes 5% and 4% revenue growth respectively to these features.",
+      "Built @mention chat functionality across the platform's messaging system for 6 enterprise/university clients.",
+      "Developed a centralized Publisher module to eliminate duplications across question, content, and project banks used in courses.",
+      "Introduced a premium Mentor–Mentee Mapping feature for 3 clients, enabling allocated mentors to monitor student progress.",
+      "Optimized backend export queries and processing to reduce download latency for 15,000 student records from approximately 5 minutes down to 2 minutes.",
+      "Integrated cloud-related courses (GCP, Azure) via LTI within 1 month and supported microservice deployments on GCP (Cloud Functions, Cloud Run) and AWS (Lambda)."
+    ],
+    "keyFeatures": [
+      "Embedded Power BI analytics reporting & 2FA authentication",
+      "Real-time chat @mentions delivered for 6 enterprise clients",
+      "Centralized Publisher module preventing question/content bank duplication",
+      "Mentor–Mentee Mapping premium tracking module for 3 clients",
+      "High-volume student export optimization (15,000 records in 2 mins vs 5 mins)",
+      "LTI cloud course integration & AWS Lambda / GCP Cloud Run deployments"
+    ],
+    "challenges": [
+      "Eliminating query bottlenecks and serialization overhead when exporting 15,000+ student performance records concurrently.",
+      "Centralizing multi-tenant question and project banks without breaking existing course references."
+    ],
+    "verifiedImpact": [
+      "Reduced 15,000-record student export time by 60% (from ~5 minutes to 2 minutes, as documented in historical resume).",
+      "Delivered revenue-linked analytics and 2FA upgrades (historical resume attributes 5% and 4% revenue growth respectively) alongside multi-client chat mentions and mentor mapping."
+    ],
+    "architectureNotes": [
+      {
+        "label": "Polyglot Web & Serverless Stack",
+        "description": "Angular and React frontends paired with Node.js (Express and Hapi) backend services, MySQL persistence, and serverless workloads on GCP Cloud Functions/Cloud Run and AWS Lambda.",
+        "classification": "verified"
+      }
+    ]
+  },
+  {
+    "slug": "neo-exam-shield",
+    "title": "Neo Exam / NeoExamShield",
+    "subtitle": "Assessment Workflows & Exam-Integrity Chrome Extension",
+    "employer": "iamneo",
+    "originType": "employment",
+    "period": "Jul 2021 – Oct 2023",
+    "domain": "EdTech & Cloud",
+    "featured": true,
+    "role": "Software Engineer",
+    "scopeNote": "Assessment platform enhancements and end-to-end delivery of the NeoExamShield Chrome extension.",
+    "stack": [
+      "Angular",
+      "React",
+      "Node.js",
+      "Express",
+      "Hapi",
+      "MySQL",
+      "Chrome Extension"
+    ],
+    "summary": "Online assessment platform enhancements and custom Chrome browser extension (NeoExamShield) engineered in 18 days to inspect installed browser extensions and prevent student malpractice during proctored tests.",
+    "businessProblem": "Online university and corporate assessments faced integrity risks from third-party browser extensions (auto-solvers, screen scrapers, AI helpers) running during active test sessions.",
+    "contributions": [
+      "Developed the NeoExamShield Chrome extension within 18 days to detect the status of installed browser extensions and restrict students from engaging in malpractice while taking assessments on the iamneo portal.",
+      "Implemented client-specific exam workflow customizations, assessment enhancements, and high-priority bug fixes without disrupting active test-taking sessions.",
+      "Handled requirement analysis, estimation, unit testing, and deployments across dev and acceptance environments."
+    ],
+    "keyFeatures": [
+      "NeoExamShield Chrome extension for real-time browser extension inspection",
+      "Automated exam blocking when unauthorized extensions are active",
+      "Client-specific assessment workflow customizations"
+    ],
+    "challenges": [
+      "Delivering a reliable browser extension detection handshake between the Chrome extension runtime and the web assessment portal within an accelerated 18-day timeline."
+    ],
+    "verifiedImpact": [
+      "Shipped NeoExamShield Chrome extension in 18 days (verified in resume/CV) to strengthen online assessment integrity across university clients."
+    ],
+    "architectureNotes": [
+      {
+        "label": "Browser Extension + Portal Handshake",
+        "description": "Chrome extension inspects browser extension state and communicates compliance status to the Angular/React and Node.js exam portal prior to and during test execution.",
+        "classification": "verified"
+      }
+    ]
+  },
+  {
+    "slug": "lcp",
+    "title": "LCP — Low-Code Platform",
+    "subtitle": "Reusable Configurable Enterprise Application Framework",
+    "employer": "Techcedence Infosystems Pvt. Ltd.",
+    "originType": "employment",
+    "period": "Jan 2024 – Present",
+    "domain": "Low-Code & Enterprise Pricing",
+    "featured": false,
+    "role": "Full Stack Software Engineer (L2)",
+    "scopeNote": "Full-stack module development, API documentation, database integration, estimation, and unit testing.",
+    "stack": [
+      "Angular",
+      "Tailwind CSS",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma ORM"
+    ],
+    "summary": "Scalable, reusable enterprise low-code framework designed to accelerate application delivery through configurable frontend and backend modules, standardized APIs, and PostgreSQL/Prisma persistence.",
+    "businessProblem": "Enterprise engineering teams repeatedly rebuild boilerplate CRUD, authentication, and workflow scaffolding across projects, increasing maintenance overhead and delivery timelines.",
+    "contributions": [
+      "Developed configurable full-stack modules across Angular (Tailwind CSS) and Node.js with PostgreSQL and Prisma ORM.",
+      "Authored comprehensive API documentation to streamline cross-team integration.",
+      "Provided task estimations, unit test suites, and full development lifecycle support."
+    ],
+    "keyFeatures": [
+      "Configurable prebuilt frontend & backend enterprise modules",
+      "Type-safe PostgreSQL data access via Prisma ORM",
+      "Standardized REST API contracts & technical documentation"
+    ],
+    "challenges": [
+      "Designing module abstractions that remain configurable for diverse enterprise domains without introducing leaky complexity."
+    ],
+    "verifiedImpact": [
+      "Accelerated enterprise application scaffolding at Techcedence by providing tested, reusable Angular and Node.js building blocks."
+    ],
+    "architectureNotes": [
+      {
+        "label": "Modular Full-Stack Architecture",
+        "description": "Angular + Tailwind CSS UI modules paired with Node.js REST endpoints and Prisma ORM over PostgreSQL.",
+        "classification": "verified"
+      }
+    ]
+  },
+  {
+    "slug": "pricing-calculator",
+    "title": "Pricing Calculator",
+    "subtitle": "Role-Based Enterprise Vendor & Multi-Country Pricing System",
+    "employer": "Techcedence Infosystems Pvt. Ltd.",
+    "originType": "employment",
+    "period": "Jan 2024 – Present",
+    "domain": "Low-Code & Enterprise Pricing",
+    "featured": false,
+    "role": "Full Stack Software Engineer (L2)",
+    "scopeNote": "Full-stack implementation across Angular, Tailwind CSS, Node.js, PostgreSQL, and Prisma ORM.",
+    "stack": [
+      "Angular",
+      "Tailwind CSS",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma ORM"
+    ],
+    "summary": "Role-based enterprise pricing platform with dedicated workflows for Admin, Vendor, and Marketing teams, supporting product/vendor/user management, markup rules, inflation adjustments, and country-specific vendor pricing.",
+    "businessProblem": "Marketing and procurement teams managing international vendors need accurate, role-governed pricing calculators that account for regional vendor rates, markups, and inflation adjustments.",
+    "contributions": [
+      "Engineered role-specific workflows for Admin, Vendor, and Marketing personas across Angular and Node.js.",
+      "Implemented pricing calculation engines supporting markup percentages, inflation adjustments, and country-specific vendor price matrices in PostgreSQL via Prisma ORM.",
+      "Documented APIs, estimated deliverables, and performed unit testing."
+    ],
+    "keyFeatures": [
+      "Role-segregated Admin, Vendor, and Marketing portals",
+      "Country-specific vendor pricing matrices",
+      "Configurable markup and inflation adjustment calculators",
+      "Centralized product, vendor, and user management"
+    ],
+    "challenges": [
+      "Maintaining calculation precision and clear role permissions across vendor rate submissions and marketing price simulations."
+    ],
+    "verifiedImpact": [
+      "Streamlined multi-country vendor pricing and marketing quote generation with auditable markup and inflation rules."
+    ],
+    "architectureNotes": [
+      {
+        "label": "Role-Based Pricing Service",
+        "description": "Angular frontend and Node.js/PostgreSQL backend enforcing role-based access for Admin, Vendor, and Marketing workflows.",
+        "classification": "verified"
+      }
+    ]
+  },
+  {
+    "slug": "bd-plumbers",
+    "title": "B&D Plumbers",
+    "subtitle": "Offline Mobile Physical Stock Counting & Excel Audit App",
+    "employer": "Techcedence Infosystems Pvt. Ltd.",
+    "originType": "employment",
+    "period": "Jan 2024 – Present",
+    "domain": "Mobile & Warehouse IoT",
+    "featured": false,
+    "role": "Mobile Software Engineer (L2)",
+    "scopeNote": "Mobile application development using React Native, SQLite, and Redux Toolkit.",
+    "stack": [
+      "React Native",
+      "SQLite",
+      "Redux Toolkit"
+    ],
+    "summary": "React Native mobile inventory audit application enabling field stock auditors to record physical stock counts offline, persist audit logs locally in SQLite, and export structured Excel spreadsheets directly on the device.",
+    "businessProblem": "Field stock auditors needed a lightweight, offline-capable mobile tool to record physical inventory counts and immediately generate portable Excel audit sheets without relying on cloud connectivity.",
+    "contributions": [
+      "Built responsive React Native mobile screens for real-time physical stock counting and local inventory maintenance.",
+      "Configured on-device SQLite persistence and Redux Toolkit state management for offline reliability.",
+      "Implemented on-device Excel spreadsheet generation so auditors can export and share completed stock audits directly from mobile storage."
+    ],
+    "keyFeatures": [
+      "Fast mobile physical stock count entry",
+      "100% offline local persistence via SQLite",
+      "Direct on-device Excel (.xlsx) audit sheet export"
+    ],
+    "challenges": [
+      "Formatting and writing spreadsheet exports reliably to local mobile storage across device file-system permissions."
+    ],
+    "verifiedImpact": [
+      "Empowered stock auditors to conduct self-contained physical inventory counts and produce immediate Excel reports on-site."
+    ],
+    "architectureNotes": [
+      {
+        "label": "Standalone Offline Mobile Architecture",
+        "description": "React Native UI backed by Redux Toolkit and local SQLite storage with on-device spreadsheet serialization.",
+        "classification": "verified"
+      }
+    ]
+  },
+  {
+    "slug": "tn-school-mobile-app",
+    "title": "TN School Mobile App",
+    "subtitle": "School Communication Requirements, Costing & Backend Architecture Template",
+    "employer": "IResponsive Solutions",
+    "originType": "employment",
+    "period": "Oct 2023 – Nov 2023",
+    "domain": "EdTech & Cloud",
+    "featured": false,
+    "role": "Software Engineer",
+    "scopeNote": "Explicit Scope Note: Covered requirement gathering, technical documentation, cost analysis, and initial Node.js/MongoDB backend codebase template creation. Does not claim full production app delivery.",
+    "stack": [
+      "Node.js",
+      "React",
+      "MongoDB"
+    ],
+    "summary": "Requirement engineering, technical specification documentation, cost analysis, and reusable Node.js/MongoDB backend codebase template preparation for multi-school association communication workflows.",
+    "businessProblem": "School associations required a structured technical blueprint, realistic cost estimation, and a standardized backend starter architecture before launching full-scale mobile app development.",
+    "contributions": [
+      "Conducted requirement gathering and workflow analysis for communication across school associations.",
+      "Prepared comprehensive technical documentation and project cost analysis.",
+      "Created the initial reusable Node.js and MongoDB backend codebase template to establish foundational project structure."
+    ],
+    "keyFeatures": [
+      "End-to-end functional & technical requirement specifications",
+      "Project costing & effort analysis breakdown",
+      "Reusable Node.js + MongoDB backend starter architecture"
+    ],
+    "challenges": [
+      "Translating multi-school stakeholder communication needs into a clean, extensible backend template and accurate cost model within a two-month engagement."
+    ],
+    "verifiedImpact": [
+      "Delivered complete technical documentation, cost estimates, and foundational Node.js/MongoDB backend scaffolding for the engineering team."
+    ],
+    "architectureNotes": [
+      {
+        "label": "Initial Backend Template Scope",
+        "description": "Node.js and MongoDB foundational repository structure and API conventions prepared alongside React frontend specifications.",
+        "classification": "verified"
+      }
+    ]
+  },
+  {
+    "slug": "neo-defenders",
+    "title": "Neo Defenders",
+    "subtitle": "Platform Reliability, Root-Cause Analysis & Bug Resolution",
+    "employer": "iamneo",
+    "originType": "employment",
+    "period": "Jul 2021 – Oct 2023",
+    "domain": "EdTech & Cloud",
+    "featured": false,
+    "role": "Software Engineer",
+    "scopeNote": "Issue reproduction, root-cause diagnostics, temporary mitigation documentation, permanent code fixes, unit testing, and deployment.",
+    "stack": [
+      "Angular",
+      "React",
+      "Node.js",
+      "Express",
+      "Hapi",
+      "MySQL"
+    ],
+    "summary": "Dedicated platform reliability and defect-resolution initiative across the iamneo EdTech ecosystem, reproducing client-reported issues, documenting temporary workarounds for support teams, and shipping tested permanent fixes (~70 bugs resolved in 3 months).",
+    "businessProblem": "High-concurrency corporate and university assessments require rapid triage of production defects so live learners are unblocked immediately while permanent root-cause fixes are engineered and tested.",
+    "contributions": [
+      "Tracked, reproduced, and diagnosed complex platform bugs reported by enterprise clients and internal support teams.",
+      "Documented root causes and safe temporary workarounds for the customer support team on critical priority issues.",
+      "Engineered, unit-tested, and deployed permanent fixes—addressing approximately 70 platform bugs within a 3-month window."
+    ],
+    "keyFeatures": [
+      "Systematic issue reproduction & root-cause analysis",
+      "Support-ready runbooks & temporary mitigation documentation",
+      "Unit-tested permanent fixes across Angular, React, Node.js, and MySQL"
+    ],
+    "challenges": [
+      "Diagnosing intermittent production defects across multi-service Angular, React, Express, Hapi, and MySQL codebases under strict SLA deadlines."
+    ],
+    "verifiedImpact": [
+      "Resolved approximately 70 platform bugs within 3 months (verified in historical resume and CV), improving platform stability for universities and corporate clients."
+    ],
+    "architectureNotes": [
+      {
+        "label": "Cross-Stack Defect Triage",
+        "description": "Spanned Angular/React frontend components, Express/Hapi REST services, and MySQL queries.",
+        "classification": "verified"
+      }
+    ]
+  },
+  {
+    "slug": "london-tamil-sangam",
+    "title": "London Tamil Sangam",
+    "subtitle": "NGO School Website Migration, Redesign & Security Maintenance",
+    "employer": "Freelance",
+    "originType": "freelance",
+    "period": "Freelance Engagement (4 Months + Ongoing Support)",
+    "domain": "Freelance",
+    "featured": false,
+    "role": "Freelance Web Developer",
+    "scopeNote": "End-to-end WordPress migration, UI modernization, phpMyAdmin database management, backups, SSL maintenance, and security support.",
+    "stack": [
+      "WordPress",
+      "phpMyAdmin"
+    ],
+    "summary": "Freelance website modernization and WordPress migration for London Tamil Sangam (an NGO school in Canada), combining a refreshed responsive design with ongoing security maintenance, database backups, and SSL certificate updates.",
+    "businessProblem": "The NGO school required a modern, easy-to-manage website presence migrated cleanly from its legacy setup, along with dependable ongoing security patching, backups, and SSL maintenance.",
+    "contributions": [
+      "Gathered requirements, provided effort estimates, and migrated the legacy school/NGO website to WordPress within 4 months.",
+      "Introduced a modernized, accessible design to improve community and student engagement.",
+      "Provided continuous operational support including security issue detection/resolution, routine backups via phpMyAdmin, and timely SSL certificate renewals."
+    ],
+    "keyFeatures": [
+      "Full legacy-to-WordPress site & database migration",
+      "Modernized responsive NGO school layout",
+      "Ongoing security patching, routine backups & SSL maintenance"
+    ],
+    "challenges": [
+      "Preserving existing community content during migration while hardening WordPress security and automating backup routines."
+    ],
+    "verifiedImpact": [
+      "Delivered a modernized WordPress platform for the Canadian NGO school and maintained reliable, secure operations."
+    ],
+    "architectureNotes": [
+      {
+        "label": "WordPress & Relational Administration",
+        "description": "Managed WordPress CMS deployment, SSL lifecycle, and MySQL/phpMyAdmin database backups.",
+        "classification": "verified"
+      }
+    ]
+  },
+  {
+    "slug": "kongu-alumni-website",
+    "title": "Kongu Engineering College Alumni Website",
+    "subtitle": "WordPress Alumni Portal Development",
+    "employer": "Freelance",
+    "originType": "freelance",
+    "period": "Freelance Engagement (~2 Months)",
+    "domain": "Freelance",
+    "featured": false,
+    "role": "Freelance Web Developer",
+    "scopeNote": "WordPress portal development and delivery.",
+    "stack": [
+      "WordPress"
+    ],
+    "summary": "Freelance development of the WordPress-based alumni website for Kongu Engineering College, delivered within approximately two months.",
+    "businessProblem": "Kongu Engineering College needed a dedicated digital portal to connect alumni, share institutional updates, and streamline alumni engagement.",
+    "contributions": [
+      "Designed, configured, and delivered the WordPress-based alumni website for Kongu Engineering College within a 2-month timeline."
+    ],
+    "keyFeatures": [
+      "Dedicated alumni engagement & institutional updates portal",
+      "Responsive WordPress CMS architecture"
+    ],
+    "challenges": [
+      "Structuring alumni content workflows for straightforward administration and fast delivery within two months."
+    ],
+    "verifiedImpact": [
+      "Successfully launched the Kongu Engineering College Alumni Website on WordPress within approximately 2 months."
+    ],
+    "architectureNotes": [
+      {
+        "label": "WordPress CMS Deployment",
+        "description": "Built on WordPress to enable non-technical institutional administrators to publish alumni updates easily.",
+        "classification": "verified"
+      }
+    ]
+  }
+]

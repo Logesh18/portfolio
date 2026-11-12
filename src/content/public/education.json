@@ -1,0 +1,26 @@
+[
+  {
+    "id": "be-cse",
+    "degree": "Bachelor of Engineering (B.E.) — Computer Science and Engineering",
+    "institution": "Kongu Engineering College",
+    "period": "2018 – 2022",
+    "score": "CGPA: 9.25 / 10",
+    "location": "Tamil Nadu, India",
+    "highlights": [
+      "Graduated with 9.25 CGPA in Computer Science and Engineering.",
+      "Co-authored two IEEE conference publications during undergraduate tenure and developed the Kongu Engineering College Alumni Website."
+    ]
+  },
+  {
+    "id": "hsc-sslc",
+    "degree": "Higher Secondary (12th) & Secondary School (10th)",
+    "institution": "Vani Vidhyalaya Matric Higher Secondary School",
+    "period": "2016 – 2018",
+    "score": "12th: 96.75% (2018) | 10th: 97.6% (2016)",
+    "location": "Tamil Nadu, India",
+    "highlights": [
+      "Completed Higher Secondary Certificate (12th) with 96.75% in 2018.",
+      "Completed SSLC (10th) with 97.6% in 2016."
+    ]
+  }
+]

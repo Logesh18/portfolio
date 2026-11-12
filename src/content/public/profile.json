@@ -1,0 +1,45 @@
+{
+  "name": "Logesh T",
+  "role": "Software Engineer L2 | Full Stack Developer",
+  "headline": "Building scalable web, mobile, and enterprise applications.",
+  "subheadline": "Software Engineer L2 at Techcedence Infosystems Pvt. Ltd. with 4+ years of hands-on experience delivering full-stack web platforms, healthcare interfaces, offline-first mobile audit apps, real-time IoT asset tracking, and cloud-integrated EdTech systems.",
+  "currentEmployer": "Techcedence Infosystems Pvt. Ltd.",
+  "joinedDate": "22 January 2024",
+  "experienceYears": "4+ Years",
+  "location": "Namakkal, Tamil Nadu, India",
+  "contactInfo": {
+    "phone": "+91 73057 46782",
+    "email": "logesh1892000@gmail.com",
+    "address": "Pallakkapalyam, Namakkal, Tamil Nadu - 637303, India"
+  },
+  "languages": ["English", "Tamil"],
+  "summary": "Software Engineer L2 with 4+ years of experience delivering full-stack web and mobile applications across enterprise asset management, healthcare, warehouse operations, IoT, and education. Skilled in React, Angular, Next.js, Node.js, TypeScript, PostgreSQL, and React Native; experienced with REST APIs, real-time telemetry, cloud deployments, and offline-first workflows.",
+  "aboutParagraphs": [
+    "I am Logesh T, a Software Engineer L2 at Techcedence Infosystems Pvt. Ltd. (joined 22 January 2024 and currently employed), bringing over four years of hands-on software engineering experience across full-stack web, mobile, enterprise low-code platforms, healthcare workflows, warehouse operations, and EdTech.",
+    "At Techcedence Infosystems, I architected and delivered end-to-end features on TracAssets (physical/digital asset management with live BLE indoor floor-map tracking, GPS fleet geofencing, software license management, AMC maintenance, and six-stage asset transfers), built responsive healthcare interfaces on Ursamin using Next.js and RTK Query, developed reusable low-code modules on LCP and Pricing Calculator, engineered offline-first React Native stock auditing apps (Stock Take with Zebra SDK RFID and B&D Plumbers), and built the ISkreen digital identity badge and bag-tag platform.",
+    "Previously, I worked as a Software Engineer at IResponsive Solutions (Oct–Nov 2023) preparing requirements, cost analysis, and backend architecture templates for the TN School Mobile App, and at iamneo (Jul 2021–Oct 2023) where I delivered analytics, two-factor authentication, chat mentions, publisher modules, the NeoExamShield Chrome extension for exam integrity, and resolved 70 platform bugs across Neo Defenders.",
+    "Alongside my full-time engineering roles, I have independently delivered WordPress-based freelance websites including the London Tamil Sangam school/NGO portal and the Kongu Engineering College Alumni Website."
+  ],
+  "aiPositioningNote": "I actively integrate AI-assisted development tools—including Google Antigravity, OpenAI Codex, and ChatGPT—into my engineering workflow for vibe coding, rapid UI/API prototyping, code generation, test scaffolding, and root-cause debugging. These tools accelerate my full-stack software delivery; they are presented honestly as developer productivity workflows rather than prior commercial AI/ML model-training employment.",
+  "privacyNotice": "Direct contact details (phone number, email, and residential address) are available on the Contact page and downloadable resume, while restricted inside the AI Assistant chat responses to prevent automated scraping and prompt-based extraction.",
+  "socialLinks": [
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "https://github.com/Logesh18",
+      "handle": "github.com/Logesh18"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/logesh-t-25a43319b/",
+      "handle": "linkedin.com/in/logesh-t-25a43319b"
+    }
+  ],
+  "heroActions": {
+    "exploreProjects": "Explore Projects",
+    "viewExperience": "View Experience",
+    "askAssistant": "Ask My AI Assistant",
+    "downloadResume": "Download Resume"
+  }
+}

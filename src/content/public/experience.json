@@ -1,0 +1,159 @@
+[
+  {
+    "id": "techcedence",
+    "company": "Techcedence Infosystems Pvt. Ltd.",
+    "role": "Software Engineer L2",
+    "period": "22 Jan 2024 – Present",
+    "location": "Tamil Nadu, India",
+    "type": "full-time",
+    "summary": "Delivering full-stack enterprise web platforms, healthcare frontends, configurable low-code frameworks, digital identity workflows, and offline-first React Native warehouse auditing applications.",
+    "projects": [
+      {
+        "name": "TracAssets",
+        "projectSlug": "tracassets",
+        "stack": ["Angular", "Tailwind CSS", "Node.js", "PostgreSQL", "Prisma ORM", "WebSockets", "MQTT"],
+        "highlights": [
+          "Built physical/digital asset registration, live BLE indoor floor-map tracking, RFID support, and GPS fleet tracking with Google Maps geofence alerts.",
+          "Implemented software license seat allocation, renewal notifications, preventive/reactive maintenance (AMC), technician assignments, and visit checklists.",
+          "Delivered a complete six-step asset transfer workflow (request, manager approval, gate pass, transit lock, receiving inspection with damage photos, digital sign-off) plus SLA, renewal, and depreciation background jobs."
+        ]
+      },
+      {
+        "name": "Ursamin",
+        "projectSlug": "ursamin",
+        "stack": ["Next.js", "React", "TypeScript", "Redux Toolkit", "RTK Query", "Material UI", "Tailwind CSS"],
+        "highlights": [
+          "Frontend scope: developed responsive patient lists, patient profiles, care teams, medical records, treatment plans, and document workflows.",
+          "Built high-priority patient and ER dashboards, clinic/resource views, subscription interfaces, and super-admin screens.",
+          "Integrated REST APIs via Redux Toolkit and RTK Query with standardized loading, error, and success states."
+        ]
+      },
+      {
+        "name": "LCP (Low-Code Platform)",
+        "projectSlug": "lcp",
+        "stack": ["Angular", "Tailwind CSS", "Node.js", "PostgreSQL", "Prisma ORM"],
+        "highlights": [
+          "Developed reusable configurable enterprise application modules across frontend and backend.",
+          "Authored API documentation, task estimates, unit tests, and full development lifecycle support."
+        ]
+      },
+      {
+        "name": "Pricing Calculator",
+        "projectSlug": "pricing-calculator",
+        "stack": ["Angular", "Tailwind CSS", "Node.js", "PostgreSQL", "Prisma ORM"],
+        "highlights": [
+          "Built role-specific Admin, Vendor, and Marketing workflows for product, vendor, and user management.",
+          "Implemented country-specific vendor pricing, markup rules, and inflation adjustment calculations."
+        ]
+      },
+      {
+        "name": "Stock Take",
+        "projectSlug": "stock-take",
+        "stack": ["React Native", "SQLite", "Redux Toolkit", "RTK Query", "Zebra SDK"],
+        "highlights": [
+          "Built offline-capable mobile warehouse and retail stock audit workflows with barcode scanning and Zebra SDK RFID integration.",
+          "Implemented product search, physical-vs-system count comparisons, local SQLite CRUD persistence, and central database synchronization."
+        ]
+      },
+      {
+        "name": "B&D Plumbers",
+        "projectSlug": "bd-plumbers",
+        "stack": ["React Native", "SQLite", "Redux Toolkit"],
+        "highlights": [
+          "Developed mobile physical stock counting and offline inventory audit screens with local SQLite storage and on-device Excel export."
+        ]
+      },
+      {
+        "name": "ISkreen",
+        "projectSlug": "iskreen",
+        "stack": ["React", "Redux Toolkit", "RTK Query", "Node.js", "MySQL"],
+        "highlights": [
+          "Built digital identity badge and bag-tag workflows with customizable ID cards, employee identification, permission-based office access, and location-tracking features."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iresponsive",
+    "company": "IResponsive Solutions",
+    "role": "Software Engineer",
+    "period": "Oct 2023 – Nov 2023",
+    "location": "Tamil Nadu, India",
+    "type": "full-time",
+    "summary": "Focused on requirement engineering, technical architecture documentation, cost estimation, and initial backend codebase scaffolding for school communication workflows.",
+    "projects": [
+      {
+        "name": "TN School Mobile App",
+        "projectSlug": "tn-school-mobile-app",
+        "stack": ["Node.js", "React", "MongoDB"],
+        "highlights": [
+          "Gathered functional requirements, prepared technical documentation and cost analysis, and created an initial Node.js/MongoDB backend codebase template (initial architecture and documentation scope)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iamneo",
+    "company": "iamneo",
+    "role": "Software Engineer",
+    "period": "Jul 2021 – Oct 2023",
+    "location": "Tamil Nadu, India",
+    "type": "full-time",
+    "summary": "Engineered enterprise EdTech platform features, analytics integrations, exam-integrity browser extensions, high-volume data export optimizations, cloud course integrations, and platform-wide bug resolution.",
+    "projects": [
+      {
+        "name": "Neo Platform",
+        "projectSlug": "neo-platform",
+        "stack": ["Angular", "React", "Node.js", "Express", "Hapi", "MySQL", "GCP", "AWS"],
+        "highlights": [
+          "Integrated Power BI analytics dashboards and two-factor authentication (2FA); earlier resume attributes 5% and 4% revenue growth respectively to these features.",
+          "Developed chat mentions for 6 clients, centralized publisher module (question/content/project banks), and Mentor–Mentee Mapping for 3 clients.",
+          "Optimized 15,000-student record export latency from ~5 minutes down to 2 minutes and integrated cloud learning courses via LTI with AWS Lambda and GCP Cloud Run/Functions support."
+        ]
+      },
+      {
+        "name": "Neo Exam / NeoExamShield",
+        "projectSlug": "neo-exam-shield",
+        "stack": ["Angular", "React", "Node.js", "Express", "Hapi", "MySQL", "Chrome Extension"],
+        "highlights": [
+          "Delivered assessment enhancements, client-specific exam workflows, and developed the NeoExamShield Chrome extension within 18 days to detect installed browser extensions and prevent test malpractice."
+        ]
+      },
+      {
+        "name": "Neo Defenders",
+        "projectSlug": "neo-defenders",
+        "stack": ["Angular", "React", "Node.js", "Express", "Hapi", "MySQL"],
+        "highlights": [
+          "Performed issue reproduction, root-cause analysis, temporary workarounds, and tested permanent fixes—resolving approximately 70 platform bugs within 3 months."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "freelance",
+    "company": "Freelance & Independent Delivery",
+    "role": "Freelance Web Developer",
+    "period": "Independent Engagements",
+    "location": "Remote",
+    "type": "freelance",
+    "summary": "Independently modernized, developed, secured, and maintained WordPress websites for education and community organizations.",
+    "projects": [
+      {
+        "name": "London Tamil Sangam",
+        "projectSlug": "london-tamil-sangam",
+        "stack": ["WordPress", "phpMyAdmin"],
+        "highlights": [
+          "Migrated and redesigned an NGO school website in Canada on WordPress; provided ongoing security maintenance, routine backups, and SSL updates."
+        ]
+      },
+      {
+        "name": "Kongu Engineering College Alumni Website",
+        "projectSlug": "kongu-alumni-website",
+        "stack": ["WordPress"],
+        "highlights": [
+          "Developed and delivered a WordPress-based alumni portal for Kongu Engineering College within approximately two months."
+        ]
+      }
+    ]
+  }
+]

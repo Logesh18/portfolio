@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ieee-pub-1",
+    "label": "IEEE Publication 1",
+    "title": "Prediction of Best Optimizer for Facial Expression Detection using Convolutional Neural Network",
+    "conference": "2022 International Conference on Computer Communication and Informatics (ICCCI)",
+    "publisher": "IEEE Xplore",
+    "documentId": "9740832",
+    "url": "https://ieeexplore.ieee.org/document/9740832",
+    "teamSummary": "Collaborative 5-member CSE research group at Kongu Engineering College (faculty mentors & peer contributors)",
+    "coAuthors": [
+      "K. Kousalya",
+      "R. S. Mohana",
+      "E. K. Jithendiran",
+      "R. C. Kanishk",
+      "T. Logesh"
+    ],
+    "note": "Evaluates and benchmarks deep learning optimizers for Convolutional Neural Network (CNN) facial expression recognition models. Published in IEEE Xplore (DOI: 10.1109/ICCCI54379.2022.9740832)."
+  },
+  {
+    "id": "ieee-pub-2",
+    "label": "IEEE Publication 2",
+    "title": "Group Emotion Detection using Convolutional Neural Network",
+    "conference": "2022 OPJU International Technology Conference on Emerging Technologies for Sustainable Development (OTCON)",
+    "publisher": "IEEE Xplore",
+    "documentId": "10113900",
+    "url": "https://ieeexplore.ieee.org/document/10113900",
+    "teamSummary": "Collaborative 8-member CSE research group at Kongu Engineering College (faculty mentors & peer contributors)",
+    "coAuthors": [
+      "K. Kousalya",
+      "R. S. Mohana",
+      "B. Krishna Kumar",
+      "E. K. Jithendiran",
+      "R. C. Kanishk",
+      "T. Logesh",
+      "E. Ranjith Kumar",
+      "B. A. Sahithya"
+    ],
+    "note": "Investigates multi-subject group emotion classification using Convolutional Neural Network architectures. Published in IEEE Xplore (DOI: 10.1109/OTCON56053.2023.10113900)."
+  }
+]
